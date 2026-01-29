@@ -1,0 +1,26 @@
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# editor / swap
+*~
+*.swp
+*.swo
+.\#*
+\#*\#
+
+# submission archives
+*.zip
+*.tar
+*.tar.gz
+
+# os / ide
+.DS_Store
+.vscode/
+.idea/

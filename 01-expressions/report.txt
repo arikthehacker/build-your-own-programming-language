@@ -1,0 +1,12 @@
+CS358 Winter Term 2026 Assignment #1 Report
+Ariella Marchuk
+
+1) Status of your programs. Do they successfully run on all tests you conducted? If not, describe the remaining issues as clearly as possible.
+    
+    All three programs boolex.py, mixex.py, and relex.py are working and run successfully on the tests I tried, including the provided test cases and additional ones I typed in manually. Each program is able to parse the input expression and evaluate the expression using the required semantics while also building the proper AST. They all also produce the correct prefix form. 
+
+2) Experience and lessons. What issues did you encounter? How did you resolve them?
+
+    This assignment was challenging mainly because it forced me to really understand how Lark builds and represents ASTs instead of just writing grammar rules and hoping that things will work fine. At first I struggled with how grammar rules turn into AST nodes, the difference between terminals and nonterminals mainly so. The most difficult part was implementing the relational expression interpreter with Python semantics. I first expected the operator token to behave like a simple value but instead had to inspect the structure of the AST and understand how nested relop nodes were formed for chained comparisons. Realizing that Python style chaining requires reusing the middle operator helped me see the logic more clearly. I resolved most of the issues by repeatedly printing the AST with tree.pretty() and using that output to guide how I wrote the interpreter methods. Overall, this assignment helped me move from treating parsing as abstract to understanding how all the puzzle pieces fit together in action.
+
+    
