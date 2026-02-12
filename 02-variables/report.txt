@@ -1,0 +1,20 @@
+###############################################################
+                Assignment 2 Summary Report
+                      Ariella Marchuk
+                  Winter Term 2026 CS 358
+###############################################################
+
+#### Status of my programs 
+
+All my programs currently run properly on all the tests I conducted.
+
+#### Experience & lessons
+
+I came across a few issues, but mostly ones that relate to finicky 
+grammar precision and correctly matching AST node names with the 
+interpreter methods. I initially forgot to import and map ID in the 
+grammar, which created variable parsing errors. Overall, this 
+assignment helped me better understand how tightly connected grammar 
+and AST structure as well as environment and interpreter logic are. 
+Most of the debugging I did were just careful fixes in structure 
+rather than any major logic changes.
