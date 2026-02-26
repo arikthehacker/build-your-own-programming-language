@@ -1,0 +1,2 @@
+# expect int operand, got range
+if (range(1,2)<range(2,3)) print(1)

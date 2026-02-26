@@ -1,0 +1,2 @@
+# for loop expects a range, got int
+for (i in 5) print(i)

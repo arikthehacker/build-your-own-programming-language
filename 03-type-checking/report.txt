@@ -1,0 +1,30 @@
+       ##############################################
+        CS358 Winter Term 2026 Assignment #3 Report
+                     Ariella Marchuk
+       ##############################################
+
+1) Status of your programs. Do they successfully run on 
+   all tests you conducted? If not, describe the remaining 
+   issues as clearly as possible.
+
+        All required components of stmt2.py are working correctly
+        on the provided test programs as well as the error programs.
+        The three Stmt2 programs also run and produce the expected outputs.
+    
+
+2) Experience and lessons. What issues did you encounter? 
+   How did you resolve them?
+ 
+        This assigment was challenging mainly because it required me to
+        be more careful and conscious of the grammar specification and the
+        intepreter implementation. I ran into issues with block structure
+        and braces, mostly with the nested if statements and how Lark parses
+        them under the given grammar. Another important part was implementing 
+        the for loop exactly according to the steps in the assignment instead
+        of relying on Pythons built in loop behavior. Debugging was 
+        mostly done against the provided files and tracing through to see
+        how the values moved through the environment. Overall this assignment 
+        helped me better understand how type checking and scoping rules interact
+        inside of an interpreter.
+
+

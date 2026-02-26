@@ -1,0 +1,2 @@
+# range bounds must be int, gor range
+print(range(range(1,2),3))

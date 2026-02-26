@@ -1,0 +1,2 @@
+# expect int operand, got range
+print(1 + range(1,2))
