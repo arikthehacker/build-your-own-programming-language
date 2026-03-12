@@ -1,0 +1,3 @@
+let twice = lambda f: lambda x: f(f(x)) in
+let inc = lambda x: x + 1 in
+twice(inc)(3)

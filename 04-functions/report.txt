@@ -1,0 +1,29 @@
+       ##############################################
+        CS358 Winter Term 2026 Assignment #4 Report
+                     Ariella Marchuk
+       ##############################################
+
+1) Status of your programs. Do they successfully run on 
+   all tests you conducted? If not, describe the remaining 
+   issues as clearly as possible.
+
+        All required components of assignment 4 are working correctly
+        on the provided test programs. Both interpreters run successfully
+        and produce correct output. However, I wasn't fully confident on
+        my add1.st3 and add2.st3 files being able to fully replicate currying
+        since Stmt3 doesn't support returning closures from functions.
+        I attempted to use a workaround where I use a variable in the outer
+        scope that the function closes over so it could produce the correct
+        result.
+
+2) Experience and lessons. What issues did you encounter? 
+   How did you resolve them?
+        
+        The biggest issue I ran into that caused an interesting result was 
+        forgetting to include '@v_args(inline=True)' on my Eval class which 
+        then caused Lark to pass tree objects instead of raw values. It produced
+        several strange recursion errors, but placing that back properly fixed
+        what looked like a bad recursion bug quite quickly. Overall, I learned 
+        more about debugging an interpreter yet again, and believe I got better
+        at my ability to distinguish between different parsing errors, and actual
+        runtime logic errors. 

@@ -1,0 +1,9 @@
+{
+def fac(n): {
+    var result = 0;
+    if (n == 0) result = 1
+    else result = n * fac(n - 1);
+    return result
+};
+print(fac(5))
+}

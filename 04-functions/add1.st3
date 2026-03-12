@@ -1,0 +1,6 @@
+#stmt3 doesn't suppot currying closures so I define add with a global variable
+{
+var y = 2;
+def add(x): return x + y;
+print(add(1))
+}

@@ -1,0 +1,1 @@
+let add = lambda x: lambda y: x+y in add(1)(2)
